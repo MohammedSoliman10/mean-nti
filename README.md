@@ -5,3 +5,6 @@ there was some small things we didn't cover but i searched for it and did
 
 ## Day 2
 DONE
+
+## Day 3
+DONE
