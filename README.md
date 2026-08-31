@@ -16,3 +16,7 @@ DONE
 
 ## Day 5 // Crud 
 DONE
+
+
+## Day 6 // crud-dom
+DONE
