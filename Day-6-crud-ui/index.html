@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 6</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <h1>Task 6</h1>
+  <div class="stats" id="statsStrip">
+    <span>items: <b id="statCount">0</b></span>
+    <span>value: <b id="statValue">$0</b></span>
+      <span>out of stock: <b id="statOut">0</b></span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="box" id="formBox">
+    <h2 id="formTitle">Add product</h2>
+    <form id="productForm">
+      <label>name</label>
+      <input id="fName" type="text">
+
+      <label>category</label>
+        <input id="fCategory" type="text">
+
+      <label>price</label>
+      <input id="fPrice" type="number">
+
+      <label>quantity</label>
+      <input id="fQuantity" type="number">
+
+      <br><br>
+      <button type="submit" id="submitBtn">Add product</button>
+      <button type="button" id="cancelEditBtn" class="hidden">cancel</button>
+        <p id="formMsg"></p>
+    </form>
+  </div>
+
+  <div class="box" id="tableBox">
+    <div class="tbar">
+    <h2>Inventory</h2>
+      <input id="searchInput" type="text" placeholder="search...">
+    </div>
+
+    <table id="productsTable">
+      <thead>
+      <tr><th>id</th><th>name</th><th>category</th><th>price</th><th>qty</th><th>actions</th></tr>
+      </thead>
+      <tbody id="productsBody"></tbody>
+    </table>
+    <p id="emptyState" class="hidden">nothing here</p>
+  </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
