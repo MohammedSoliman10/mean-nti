@@ -20,3 +20,7 @@ DONE
 
 ## Day 6 // crud-dom
 DONE
+
+
+## Day 7 
+DONE
