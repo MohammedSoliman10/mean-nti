@@ -1,3 +1,8 @@
+# https://www.npmjs.com/package/npm-10
+
+
+
+
 # npm login
 # npm notice Log in on https://registry.npmjs.org/
 # 3npm notice npm tokens that bypass 2FA are being restricted for account changes and direct publishing. Learn how to prepare: https://gh.io/npm-gat-bypass2fa-deprecation
@@ -34,4 +39,3 @@
 # Press ENTER to open in the browser...
 # + npm-10@1.0.0
 
-## https://www.npmjs.com/package/npm-10
