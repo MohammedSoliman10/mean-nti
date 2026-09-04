@@ -1,5 +1,6 @@
 # https://www.npmjs.com/package/npm-10
 
+##  npm i @mohammedsolly05/npm-10  -- NPM download link 
 ### click on the link above here to check 
 
 
