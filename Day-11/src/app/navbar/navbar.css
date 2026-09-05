@@ -1,0 +1,17 @@
+.navbar-brand {
+  font-weight: bold;
+  color: tomato !important;
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.nav-link.active {
+  color: tomato !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: tomato !important;
+}
