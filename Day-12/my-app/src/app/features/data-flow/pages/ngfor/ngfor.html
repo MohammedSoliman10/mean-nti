@@ -1,0 +1,27 @@
+<div class="parent">
+  <header class="parent-head">
+    <p class="eyebrow">Nested routing</p>
+    <h2>ngFor </h2>
+
+  </header>
+
+  <nav class="page-nav" aria-label="ngFor nested pages">
+    <a routerLink="page1" routerLinkActive="active">
+      <span>01</span>
+      Page 1
+    </a>
+    <a routerLink="page2" routerLinkActive="active">
+      <span>02</span>
+      Page 2
+    </a>
+    <a routerLink="page3" routerLinkActive="active">
+      <span>03</span>
+      Page 3
+    </a>
+  </nav>
+
+  <div class="child-stage">
+    <p class="outlet-label"></p>
+    <router-outlet></router-outlet>
+  </div>
+</div>
