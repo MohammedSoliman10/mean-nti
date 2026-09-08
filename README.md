@@ -22,3 +22,6 @@ Done
 DONE
 ## Day 11
 DONE
+
+## day 12
+done
