@@ -25,3 +25,6 @@ DONE
 
 ## day 12
 done
+
+## day 14
+done
